@@ -1,72 +1,74 @@
-@tailwind preflight;
-
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
 .theme-startup {
-    --color-bg-primary: #ff73b3;
-    --color-bg-secondary: #6f72b9;
-    --color-bg-default: #fff;
-    --color-bg-inverse: #5255AC;
+  --color-bg-primary: #ff73b3;
+  --color-bg-secondary: #6f72b9;
+  --color-bg-default: #fff;
+  --color-bg-inverse: #5255ac;
 
-    --color-text-primary: #fff;
-    --color-text-secondary: #44467b;
-    --color-text-default: #373737;
-    --color-text-default-soft: #6a6a6a;
-    --color-text-inverse: #fff;
-    --color-text-inverse-soft: rgba(255, 255, 255, 0.7);
+  --color-text-primary: #fff;
+  --color-text-secondary: #44467b;
+  --color-text-default: #373737;
+  --color-text-default-soft: #6a6a6a;
+  --color-text-inverse: #fff;
+  --color-text-inverse-soft: rgba(255, 255, 255, 0.7);
 
-    --font-display: Futura, Trebuchet MS, Arial, sans-serif;
-    --font-body: Futura, Trebuchet MS, Arial, sans-serif;
+  --font-display: Futura, Trebuchet MS, Arial, sans-serif;
+  --font-body: Futura, Trebuchet MS, Arial, sans-serif;
 
-    --font-weight-normal: 400;
-    --font-weight-display: 600;
-    --font-weight-btn: 600;
+  --font-weight-normal: 400;
+  --font-weight-display: 600;
+  --font-weight-btn: 600;
 
-    --rounded-btn: 9999px;
+  --rounded-btn: 9999px;
 }
 
 .theme-boring {
-    --color-bg-primary: #0252cc;
-    --color-bg-secondary: #ffc402;
-    --color-bg-default: #fff;
-    --color-bg-inverse: #fff;
+  --color-bg-primary: #0252cc;
+  --color-bg-secondary: #ffc402;
+  --color-bg-default: #fff;
+  --color-bg-inverse: #fff;
 
-    --color-text-primary: #fff;
-    --color-text-secondary: #755f17;
-    --color-text-default: #444;
-    --color-text-default-soft: #999;
-    --color-text-inverse: #444;
-    --color-text-inverse-soft: #999;
+  --color-text-primary: #fff;
+  --color-text-secondary: #755f17;
+  --color-text-default: #444;
+  --color-text-default-soft: #999;
+  --color-text-inverse: #444;
+  --color-text-inverse-soft: #999;
 
-    --font-display: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-    --font-weight-normal: 400;
-    --font-weight-display: 400;
-    --font-weight-btn: 600;
+  --font-weight-normal: 400;
+  --font-weight-display: 400;
+  --font-weight-btn: 600;
 
-    --rounded-btn: .25rem;
+  --rounded-btn: 0.25rem;
 }
 
 .theme-elegant {
-    --color-bg-primary: #c0b283;
-    --color-bg-secondary: #dcd0c0;
-    --color-bg-default: #f4f4f4;
-    --color-bg-inverse: #373737;
+  --color-bg-primary: #c0b283;
+  --color-bg-secondary: #dcd0c0;
+  --color-bg-default: #f4f4f4;
+  --color-bg-inverse: #373737;
 
-    --color-text-primary: #fff;
-    --color-text-secondary: #927e7e;
-    --color-text-default: #373737;
-    --color-text-default-soft: #6a6a6a;
-    --color-text-inverse: #fff;
-    --color-text-inverse-soft: #bbb;
+  --color-text-primary: #fff;
+  --color-text-secondary: #927e7e;
+  --color-text-default: #373737;
+  --color-text-default-soft: #6a6a6a;
+  --color-text-inverse: #fff;
+  --color-text-inverse-soft: #bbb;
 
-    --font-display: Georgia, Times, "Times New Roman", serif;
-    --font-body: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  --font-display: Georgia, Times, "Times New Roman", serif;
+  --font-body: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+    "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana,
+    "Verdana Ref", sans-serif;
 
-    --font-weight-normal: 400;
-    --font-weight-display: 400;
-    --font-weight-btn: 600;
+  --font-weight-normal: 400;
+  --font-weight-display: 400;
+  --font-weight-btn: 600;
 
-    --rounded-btn: 0;
+  --rounded-btn: 0;
 }
