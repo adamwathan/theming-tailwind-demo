@@ -28,7 +28,6 @@ module.exports = {
       none: "0",
       btn: "var(--rounded-btn)"
     },
-    padding: theme => ({ "16": "4rem", ...theme("spacing") })
   },
   variants: {},
   plugins: []
