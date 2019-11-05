@@ -1,0 +1,32 @@
+@mixin button () {
+  button,
+  .btn {
+    background-color: v(color-bg-primary);
+    color: v(color-text-primary);
+    border: none;
+    border-radius: v(rounded-btn);
+
+    &.secondary {
+      background-color: v(color-bg-secondary);
+      color: v(color-text-secondary);
+    }
+
+    &.default {
+      background-color: v(color-bg-default);
+      color: v(color-text-default);
+
+      &.soft {
+        color: v(color-text-default-soft);
+      }
+    }
+
+    &.inverse {
+      background-color: v(color-bg-inverse);
+      color: v(color-text-inverse);
+
+      &.soft {
+        color: v(color-text-inverse-soft);
+      }
+    }
+  }
+}
