@@ -1,0 +1,45 @@
+@mixin gen-theme(
+  $bg-primary,
+  $bg-secondary,
+  $bg-default,
+  $bg-inverse,
+
+  $text-primary,
+  $text-secondary,
+  $text-default,
+  $text-default-soft,
+  $text-inverse,
+  $text-inverse-soft,
+
+  $font-display,
+  $font-body,
+  $font-weight-normal,
+  $font-weight-display,
+  $font-weight-btn,
+
+  $btn-rounded
+) {
+  --color-bg-primary: #{$bg-primary};
+  $color-bg-primary-soft: lighten($bg-primary, 10);
+  --color-bg-primary-soft: #{$color-bg-primary-soft};
+  --color-bg-secondary: #{$bg-secondary};
+  --color-bg-default: #{$bg-default};
+  --color-bg-inverse: #{$bg-inverse};
+
+  --color-text-primary: #{$text-primary};
+  --color-text-primary-soft: #{$text-primary};
+  --color-text-secondary: #{$text-secondary};
+  --color-text-default: #{$text-default};
+  --color-text-default-soft: #{$text-default-soft};
+  --color-text-inverse: #{$text-inverse};
+  --color-text-inverse-soft: #{$text-inverse-soft};
+
+  --font-display: #{$font-display};
+  --font-body: #{$font-body};
+
+  --font-weight-normal: #{$font-weight-normal};
+  --font-weight-display: #{$font-weight-display};
+  --font-weight-btn: #{$font-weight-btn};
+
+  --rounded-btn: #{$btn-rounded};
+}
